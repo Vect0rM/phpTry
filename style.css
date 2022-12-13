@@ -1,0 +1,74 @@
+body {
+    margin: 5px;
+    min-height: 100vh;
+}
+.text{
+    font-size: medium;
+    font-family: Calibri, serif;
+}
+.text::first-letter{
+    font-size: 1.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.1em;
+}
+.main-table{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#red{
+    color: red;
+}
+.header{
+    border: 2px solid black;
+    font-family: fantasy;
+    color: black;
+    font-size: large;
+}
+.coordinates-table{
+    width: 20%;
+    border: 2px solid black;
+}
+.results-table{
+    width: 80%;
+    border: 2px solid black;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+}
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    color: blue;
+    width: 80%
+}
+form {
+    color: black;
+}
+
+.form__group {
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+.input.error {
+    border-color: red;
+}
+
+.validation-js-form{
+    margin-left: 20px;
+}
